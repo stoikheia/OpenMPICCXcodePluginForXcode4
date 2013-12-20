@@ -36,7 +36,7 @@ Version number in the plugin name "4.2" is LLVM version which used by openmpicc.
     33    ExecPath = "/opt/local/bin/openmpicc";
     ```
 
-3. Copy the plugin to Plug-in directory. Plug-in directory is a subfolder of Xcode Application Package.
+3. Copy the plugin to Plug-ins directory. Plug-ins directory is a subfolder of Xcode Application Package.
 
     ```
     $ cp "OpenMPICC 4.2.xcplugin"  /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library/Xcode/Plug-ins/
