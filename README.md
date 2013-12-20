@@ -14,7 +14,7 @@ Version number in the plugin name "4.2" is LLVM version which used by openmpicc.
     e.g. installation by macports.
 
     ```
-    sudo port install openmpi
+    $ sudo port install openmpi
     ```
 
 
@@ -39,7 +39,7 @@ Version number in the plugin name "4.2" is LLVM version which used by openmpicc.
 3. Copy the plugin to Plug-in directory. Plug-in directory is a subfolder of Xcode Application Package.
 
     ```
-    cp "OpenMPICC 4.2.xcplugin"  /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library/Xcode/Plug-ins/
+    $ cp "OpenMPICC 4.2.xcplugin"  /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library/Xcode/Plug-ins/
     ```
 
 4. Relaunch Xcode.
